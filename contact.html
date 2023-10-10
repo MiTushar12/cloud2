@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Ensuring Content Security Policy -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' trusted-scripts.com;">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Coda&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prosto+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="view_first">
+      <div class="view_first-1">
+        <img src="./img/company_logo.png" alt="" class="company_logo" />
+      </div>
+      <div class="view_first-2">
+        <div class="navigation_bar">
+          <ul>
+            <div class="nv-1">
+              <li class="sidebar"><a href="./index.html">Home</a></li>
+              <li class="sidebar" id="center_a">
+                <a href="./about.html">About</a>
+              </li>
+              <li class="sidebar" id="center_a">
+                <a href="./our_team.html">Our Team</a>
+              </li>
+              <li class="sidebar" id="center_a">
+                <a href="./works.html">Works</a>
+              </li>
+              <li class="sidebar" id="center_a">
+                <a href="./booking_form.html">Booking Form</a>
+              </li>
+              <li id="center_a">
+                <a href="#">Contact</a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <div class="view_first-3">
+        <div class="h_a">
+          <p><a href="./index.html">Home ></a></p>
+          <p><a href="#">Contact Us ></a></p>
+        </div>
+        <h1>Contact Us</h1>
+      </div>
+    </div>
+    <div class="view_second">
+      <div class="main">
+        <div class="left">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3106.9510948896645!2d-76.89155688440007!3d38.85647645695971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7beef2b31d471%3A0xb932c94f756fb161!2s2405%20Ramblewood%20Dr%2C%20District%20Heights%2C%20MD%2020747%2C%20USA!5e0!3m2!1sen!2sin!4v1640098818502!5m2!1sen!2sin"
+            width="600"
+            height="600"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            tabindex="0"
+            aria-hidden="false"
+            title=""
+          ></iframe>
+        </div>
+        <div class="right">
+          <div class="regform">
+            <h1>REGISTRATION FORM</h1>
+          </div>
+          <form action="#" method="post">
+            <div class="left_form">
+              <label for="name">Name:</label>
+              <br />
+              <label for="name" class="number_label">Phone number:</label>
+              <br />
+              <label for="email" class="email_label">Email:</label>
+              <br />
+              <label for="address" class="message_label">Message:</label>
+            </div>
+            <div class="right_form">
+              <div class="all">
+                <!-- Inputting required field, pattern and maxlength to 
+                  improve security and validation of input -->
+                <input
+                  type="text"
+                  class="name"
+                  name="first-name"
+                  placeholder="E.g. John"
+                  pattern="[A-Za-z]"
+                  maxlength="12"
+                  required
+                />
+                <input
+                  type="text"
+                  class="name"
+                  name="last-name"
+                  placeholder="E.g. Cooper"
+                  pattern="[A-Za-z]"
+                  maxlength="12"
+                  required
+                />
+                <br />
+                <small class="first_name">
+                  <label for="first_name">First Name</label>
+                </small>
+                <input
+                  type="hidden"
+                  name="hidden"
+                  value="hidden"
+                  placeholder="empty"
+                />
+                <small class="last_name">
+                  <label for="last_name">Last Name</label>
+                </small>
+                <input
+                  type="hidden"
+                  name="hidden"
+                  value="hidden"
+                  placeholder="empty"
+                />
+
+                <br />
+                <label for="name"></label>
+                <br />
+                <label for="name"></label>
+                <br />
+                <input
+                  type="number"
+                  class="area_code"
+                  name="number"
+                  value="number"
+                  placeholder="E.g. +91"
+                  pattern="^\+\d{2,3}$"
+                  min="2"
+                  max="4"
+                  required
+                />
+                <input
+                  type="number"
+                  class="phone_number"
+                  name="number"
+                  value="number"
+                  placeholder="E.g. 981-114-2896"
+                  min="10"
+                  pattern="[0-9]"
+                  required
+                />
+                <br />
+                <small class="first_code">
+                  <label for="area_code">Area Code</label>
+                </small>
+                <input
+                  type="hidden"
+                  name="hidden"
+                  value="hidden"
+                  placeholder="empty"
+                />
+                <small class="last_number">
+                  <label for="phone_number">Phone Number</label>
+                </small>
+                <input
+                  type="hidden"
+                  name="hidden"
+                  value="hidden"
+                  placeholder="empty"
+                />
+                <br />
+                <label for="name"></label>
+                <br />
+                <label for="name"></label>
+                <br />
+                <input
+                  type="email"
+                  class="general"
+                  name="email"
+                  placeholder="abc123@xyz.com"
+                  pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+                  maxlength="40"
+                  required
+                />
+                <br />
+                <label for="name"></label>
+                <br />
+                <label for="name"></label>
+                <br />
+                <input
+                  type="text"
+                  class="general"
+                  name="address"
+                  placeholder="Write your message here!"
+                  maxlength="300"
+                  pattern="[A-Za-z]+"
+                  required
+                />
+              </div>
+              <br />
+              <br />
+              <br />
+            </div>
+            <div class="button">
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="view_third">
+      <div class="view_third-1">
+        <h1>Isoh Photography</h1>
+        <p>
+          We at Isoh Photography help recreate many memories by capturing them
+          in the form of Photography. We have been experienced in this industry
+          for more than a decade. With such high amounts of experience, our
+          clients as well as our customers have faith in our team that no matter
+          the circumstance, we will come through and capture some captivating
+          memories of many people.
+        </p>
+        <h2>Contact us via:</h2>
+        <div class="social_media">
+          <a href="https://www.instagram.com/_jai.m.2002_/" target="_blank"
+            ><i class="fa fab fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com/JManiktalla" target="_blank"
+            ><i class="fa fab fa-twitter"></i
+          ></a>
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=jai.maniktalla2002@gmail.com"
+            target="_blank"
+            ><i class="fa fab fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+      <div class="view_third-2">
+        <h2>Navigation</h2>
+        <div class="sub_nav_bar-1">
+          <div class="snb-1">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li class="link_gap"><a href="./about.html">About</a></li>
+              <li><a href="./our_team.html">Our Team</a></li>
+            </ul>
+          </div>
+          <div class="snb-2">
+            <ul>
+              <li><a href="./works.html">Works</a></li>
+              <li class="link_gap">
+                <a href="./booking_form.html">Booking Form</a>
+              </li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="view_third-3">
+        <h2>Have a Question?</h2>
+        <div class="haq-1">
+          <i class="fa fab fa-map"></i>
+          <p>
+            <a href="https://goo.gl/maps/VNbwqYvtJ9cQq6Az8" target="_blank"
+              >2405 Ramblewood Dr, Disctrict Heights, MD 20747, USA</a
+            >
+          </p>
+        </div>
+        <div class="haq-2">
+          <i class="fa fab fa-phone"></i>
+          <p>
+            <a
+              href="tel:5558920234"
+              onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"
+              >952-980-1726</a
+            >
+          </p>
+        </div>
+        <div class="haq-3">
+          <i class="fa fab fa-envelope"></i>
+          <p>
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=jai.maniktalla2002@gmail.com"
+              target="_blank"
+              >smith.johnson1975@gmail.com</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
