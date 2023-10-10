@@ -1,0 +1,328 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.view_first {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-image: url(../img/background_img/3176409.jpg);
+  background-position: bottom;
+  height: 100%;
+}
+
+.view_first-1 {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5));
+}
+
+.company_logo {
+  width: 40%;
+  border-radius: 10px;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.view_first-1 h1 {
+  margin: 0;
+  margin-top: 15%;
+  margin-left: 10%;
+  color: white;
+  font-size: 60px;
+  font-family: "Lobster Two", cursive;
+  width: 600px;
+}
+
+.view_first-1 p {
+  margin: 0;
+  margin-top: 3%;
+  margin-left: 10%;
+  color: white;
+  font-size: 30px;
+  font-family: "Arima Madurai", cursive;
+  width: 600px;
+}
+
+.view_first-2 {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+
+.navigation_bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 0;
+  height: 10%;
+  width: 80%;
+}
+
+.navigation_bar ul li {
+  color: white;
+}
+
+.navigation_bar a {
+  font-family: "Cormorant", serif;
+  font-size: 20px;
+  color: inherit;
+  text-decoration: underline 1.5px rgba(255, 255, 255, 0);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 200ms;
+}
+
+.navigation_bar a:hover {
+  text-decoration-color: rgba(255, 255, 255, 1);
+}
+
+.nv-1 {
+  display: grid;
+  grid-template-columns: 68px 81px 104px 74px 140px 100px;
+  width: 700px;
+  position: absolute;
+}
+
+.li_su ul {
+  display: grid;
+  grid-template-columns: 80px 90px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 15%;
+  margin-left: 5%;
+  margin-right: 0;
+  height: 1%;
+  width: 65%;
+}
+
+.sidebar {
+  border-right: 1px solid white;
+}
+
+#center_a {
+  text-align: center;
+}
+
+.view_second {
+  height: 100%;
+  display: flex;
+}
+
+.view_second-1 {
+  width: 50%;
+  height: 100%;
+  background-color: #eeeeee;
+}
+
+.view_second-1 h3 {
+  margin: 0;
+  margin-top: 30%;
+  margin-left: 35%;
+  font-family: "Oleo Script", cursive;
+  font-weight: 300;
+  color: #e9cc77;
+  font-size: 22px;
+}
+
+.view_second-1 h1 {
+  margin: 0;
+  margin-top: 5%;
+  margin-left: 35%;
+  font-family: "Unica One", cursive;
+}
+
+.view_second-1 p {
+  margin: 0;
+  margin-top: 5%;
+  margin-left: 35%;
+  font-family: "Oleo Script", cursive;
+  width: 57%;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.view_second-1 button {
+  margin: 0;
+  margin-top: 5%;
+  margin-left: 35%;
+  width: 200px;
+  height: 50px;
+  border-radius: none;
+  background-color: #e9cc77;
+  border: none;
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+}
+
+.view_second-1 button a {
+  text-decoration: none;
+  color: black;
+}
+
+.view_second-2 {
+  width: 50%;
+  height: 100%;
+  background-image: url(../img/background_img/Best-Monochrome-Cameras-For-BW-Photography-0-Hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.view_third {
+  display: flex;
+  height: 54%;
+  color: white;
+  background-color: black;
+}
+
+.view_third-1 {
+  width: 33%;
+  height: 100%;
+}
+
+.view_third-1 h1 {
+  margin: 0;
+  text-align: center;
+  margin-top: 8%;
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 28px;
+}
+
+.view_third-1 p {
+  margin: 0 auto;
+  text-align: justify;
+  width: 50%;
+  margin-top: 5%;
+  font-family: "Comfortaa", cursive;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.view_third-1 h2 {
+  margin: 0;
+  text-align: center;
+  margin-top: 5%;
+  font-family: "Prosto One", cursive;
+  font-weight: 200;
+  font-size: 21px;
+}
+
+.social_media {
+  margin: 0;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.social_media i {
+  font-size: 21px;
+  margin-bottom: 10%;
+  color: white;
+}
+
+.social_media a {
+  text-decoration: none;
+  color: black;
+}
+
+.fa-twitter {
+  padding: 0 30px;
+}
+
+.view_third-2 {
+  width: 33%;
+}
+
+.view_third-2 h2 {
+  margin: 0;
+  margin-top: 8%;
+  margin-left: 10%;
+  font-family: "Coda", cursive;
+  font-size: 21px;
+}
+
+.sub_nav_bar-1 {
+  display: flex;
+  margin: 0;
+  margin-top: 8%;
+  margin-left: 10%;
+}
+
+.sub_nav_bar-1 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sub_nav_bar-1 ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Comfortaa", cursive;
+  font-size: 14px;
+  text-decoration: underline 1.5px rgba(255, 255, 255, 0);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 250ms;
+}
+
+.sub_nav_bar-1 ul li a:hover {
+  text-decoration-color: rgba(255, 255, 255, 1);
+}
+
+.link_gap {
+  padding: 30px 0;
+}
+
+.snb-1 {
+  width: 46%;
+}
+
+.snb-2 {
+  width: 54%;
+}
+
+.view_third-3 {
+  width: 34%;
+}
+
+.view_third-3 h2 {
+  margin-top: 8%;
+  font-size: 21px;
+}
+
+.haq-1,
+.haq-2,
+.haq-3 {
+  display: flex;
+}
+
+.haq-1 {
+  margin-top: 7%;
+}
+
+.haq-2 {
+  margin: 30px 0;
+}
+
+.view_third-3 p {
+  margin: 0;
+  width: 60%;
+}
+
+.view_third-3 i {
+  width: 50px;
+}
+
+.view_third-3 a {
+  text-decoration: none;
+  color: white;
+}
